@@ -1,3 +1,7 @@
+:root{
+    --purple-red: rgb(48, 21, 82);
+}
+
 .nav-bar{
     background-color: red;
     width: 100%;
@@ -50,7 +54,7 @@
         margin-top: 5px;
     }
     .flex-container{
-        background-color: rgb(48, 21, 82);
+        background-color: var(--purple-red);
         width: 100%;
         margin-top: 0px;
         display: flex;
